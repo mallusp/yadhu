@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /myran
 fi
-cd /Ajax
+cd /myran
 pip3 install -U -r requirements.txt
 echo "mrbean..🔥"
 python3 bot.py
