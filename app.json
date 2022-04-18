@@ -45,12 +45,8 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": true   
-        },
-        "INDEX_REQ_CHANNEL": {
-            "description": "Same Logs channel id with -100xxxxxxx",
             "required": true       
-        },
+        },       
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
             "required": false
@@ -64,7 +60,7 @@
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
-            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",            
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
             "required": false
         },
         "DATABASE_URI": {
@@ -80,14 +76,14 @@
             "value": "Ajax_Files",
             "required": false
         },
-        "SUPPORT_CHAT": {
-            "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MW Updatez",
-            "required": false
-        },
         "CACHE_TIME": {
             "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
             "value": "300",
+            "required": false
+        },
+        "SUPPORT_CHAT": {
+            "description": "Updated Channel Username Without @ Not Chanel ID",
+            "value": "MW Updatez",
             "required": false
         },
         "IMDB": {
