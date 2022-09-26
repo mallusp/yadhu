@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('💠 𝐑𝐄𝐋𝐄𝐀𝐒𝐄 💠', url='https://t.me/+RnQCwI5msYdjZTZl'),
             InlineKeyboardButton('💠 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 💠', url='https://t.me/mallmovieup')
             ],[      
-            InlineKeyboardButton('♻️ ᕼEᒪᑭ ♻️', callback_data='help'),
+            InlineKeyboardButton('♻️ ᕼEᒪᑭ ♻️', callback_data='hel'),
             InlineKeyboardButton('♻️ 𝙼𝙰𝚂𝚃𝙴𝚁 ♻️', url='https://t.me/mr_bean_12')
             ],[
             InlineKeyboardButton('⚜️ 𝙒𝙀𝘽 𝙎𝙀𝙍𝙄𝙀𝙎 ⚜️', url='https://t.me/malluwebseriesd')
