@@ -43,15 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('⚚ J̳O̳I̳N̳ ̳T̳O̳ ̳B̳O̳T̳ ̳G̳R̳O̳U̳P̳ ⚚', url='https://t.me/mallu_movie_search')
-            ],[
-            InlineKeyboardButton('💠 𝐑𝐄𝐋𝐄𝐀𝐒𝐄 💠', url='https://t.me/+RnQCwI5msYdjZTZl'),
-            InlineKeyboardButton('💠 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 💠', url='https://t.me/mallmovieup')
-            ],[      
-            InlineKeyboardButton('♻️ ᕼEᒪᑭ ♻️', callback_data='hel'),
-            InlineKeyboardButton('♻️ 𝙼𝙰𝚂𝚃𝙴𝚁 ♻️', url='https://t.me/mr_bean_12')
-            ],[
-            InlineKeyboardButton('⚜️ 𝙒𝙀𝘽 𝙎𝙀𝙍𝙄𝙀𝙎 ⚜️', url='https://t.me/malluwebseriesd')
-        ]]  
+             ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
