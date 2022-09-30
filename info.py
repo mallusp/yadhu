@@ -85,7 +85,7 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE","🎬 Title:</b> <a href={url}>{title}</a> [{year}]\n<b>📺 Type:</b> {kind}\n<b>📆 Release:</b> <a href={url}/releaseinfo>{release_date}</a>\n<b>🌟 Rating:</b> <a href={url}/ratings>{rating} / 10</a>\n(based on <code>{votes}</code> user ratings.)\n\n<b>📀 Runtime:</b> <code>{runtime} minutes</code>\n<b>🎭 Genres:</b> {genres}\n\n<b>☀️ Languages:</b> {languages}\n<b>🎛 Countries:</b> {countries}\n<b>🎥 Director:</b> {director}\n<b>📝 Writers:</b> {writer}\n\n<b><a href='https://t.me/mallu_movie_search'>© 𝐌𝐀𝐋𝐋𝐔 𝐌𝐎𝐕𝐈𝐄 𝐒𝐄𝐀𝐑𝐂𝐇</a></b>\n\n<b>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE"," Title:</b> <a href={url}>{title}</a> [{year}]\n<b> Type:</b> {kind}\n<b> Release:</b> <a href={url}/releaseinfo>{release_date}</a>\n<b> Rating:</b> <a href={url}/ratings>{rating} / 10</a>\n(based on <code>{votes}</code> user ratings.)\n\n<b> Runtime:</b> <code>{runtime} minutes</code>\n<b> Genres:</b> {genres}\n\n<b> Languages:</b> {languages}\n<b> Countries:</b> {countries}\n<b> Director:</b> {director}\n<b> Writers:</b> {writer}\n\n<b><a href='https://t.me/mallu_movie_search'>© 𝐌𝐀𝐋𝐋𝐔 𝐌𝐎𝐕𝐈𝐄 𝐒𝐄𝐀𝐑𝐂𝐇</a></b>\n\n<b>")
 
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
