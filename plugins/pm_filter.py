@@ -1334,10 +1334,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"𝖭𝖺𝗆𝖾 : {title}
-𝖱𝖾𝗅𝖾𝖺𝗌𝖾 : {release_date}    
-𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾𝗌 : {languages}
-𝖦𝖾𝗇𝗋𝖾 : {genres} {search}"
+        cap = f"𝖭𝖺𝗆𝖾 : {title}𝖱𝖾𝗅𝖾𝖺𝗌𝖾 : {release_date}    𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾𝗌 :/n {languages}𝖦𝖾𝗇𝗋𝖾 : {genres} {search}"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
