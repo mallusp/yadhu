@@ -1334,7 +1334,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"[𝐌𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞](https://t.me/movies3213) {random.choice(RATING)} {search}"
+        cap = f"[𝐌𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞](https://t.me/movies3213) {search}  {RATING} "
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
