@@ -1335,7 +1335,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         cap = f"<b><i>𝐌𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞 : {search}\n 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗕𝘆 : {message.from_user.mention}\n𝗴𝗿𝗼𝘂𝗽 : {message.chat.title}</i></b>"
-    if imdb and imdb.get('poster'):
+    if imdb and imdb.get('https://telegra.ph/file/1c4c77e0a3cf46a04e64c.jpg'):
         try:
             await message.reply_photo(photo="https://telegra.ph/file/1c4c77e0a3cf46a04e64c.jpg", caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
