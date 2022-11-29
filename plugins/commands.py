@@ -173,6 +173,7 @@ async def start(client, message):
                     media = getattr(msg, msg.media)
                     file_name = getattr(media, 'file_name', '')
                     f_caption = getattr(msg, 'caption', file_name)
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐌𝐀𝐋𝐋𝐔 𝐌𝐎𝐕𝐈𝐄 𝐒𝐄𝐀𝐑𝐂𝐇', url='https://t.me/mallu_movie_search') ] ] ),
                 try:
                     await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
                 except FloodWait as e:
