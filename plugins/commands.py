@@ -44,22 +44,23 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ J̳O̳I̳N̳ ̳T̳O̳ ̳B̳O̳T̳ ̳G̳R̳O̳U̳P̳ ⚚', url='https://t.me/mallu_movie_search')
              ]]
-             reply1 = await query.message.reply_text(
-            text="1"
+        reply1 = await query.message.reply_text(
+            text="▢▢▢"
         )
         await asyncio.sleep(0.5)
         reply2 = await reply1.edit_text(
-            text="2"
+            text="▣▢▢"
         )
         await asyncio.sleep(0.5)
         reply3 = await reply2.edit_text(
-            text="3"
+            text="▣▣▢"
         )
         await asyncio.sleep(0.5)
         reply4 = await reply3.edit_text(
-            text="4"
+            text="▣▣▣"
         )
-        await reply4.delete()  
+        await reply4.delete()
+
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
