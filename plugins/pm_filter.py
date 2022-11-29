@@ -708,6 +708,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await asyncio.sleep(0.5)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
+        )
+        await reply4.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -862,6 +864,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await asyncio.sleep(0.5)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
+        )
+        await reply4.delete()
+
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
