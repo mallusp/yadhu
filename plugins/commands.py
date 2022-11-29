@@ -128,6 +128,7 @@ async def start(client, message):
                     f_caption=f_caption
             if f_caption is None:
                 f_caption = f"{title}"
+            reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝐌𝐀𝐋𝐋𝐔 𝐌𝐎𝐕𝐈𝐄 𝐒𝐄𝐀𝐑𝐂𝐇', url='https://t.me/mallu_movie_search') ] ] ),
             try:
                 await client.send_cached_media(
                     chat_id=message.from_user.id,
