@@ -50,7 +50,7 @@ You can deploy this bot anywhere.
 </a>
 </p>
 ## DEPLOY ON RAILWAY
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mallusp/myran)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/5KwZ1V?referralCode=o_iDCH)
 
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=https://github.com/yadhukrishanyadhukrishan/myran=master&name=lazyprincessbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
